@@ -1,0 +1,811 @@
+<!DOCTYPE html><html class="scroll-smooth" lang="es"><head><meta charset="utf-8"><title>Postres y Bebidas | VADEPA Cambrils</title><meta content="width=device-width, initial-scale=1.0" name="viewport"><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"><link href="https://fonts.googleapis.com" rel="preconnect"><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&amp;family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+          "on-primary": "#ffffff",
+          "background": "#fff8f3",
+          "on-surface-variant": "#58413d",
+          "on-primary-container": "#ffefec",
+          "on-secondary": "#ffffff",
+          "surface-container-low": "#fcf2e9",
+          "surface": "#fff8f3",
+          "secondary-fixed": "#d7e9c0",
+          "surface-dim": "#e2d8d0",
+          "error-container": "#ffdad6",
+          "surface-variant": "#eae1d8",
+          "primary": "#9f2c18",
+          "on-tertiary-container": "#fff0e1",
+          "on-primary-fixed-variant": "#8a1c09",
+          "primary-container": "#c1442d",
+          "surface-tint": "#ab341f",
+          "on-tertiary-fixed": "#291800",
+          "secondary-container": "#d4e6bd",
+          "inverse-primary": "#ffb4a5",
+          "surface-container-lowest": "#ffffff",
+          "tertiary-fixed-dim": "#f2be71",
+          "tertiary": "#744f0a",
+          "secondary": "#546343",
+          "secondary-fixed-dim": "#bbcda5",
+          "on-tertiary": "#ffffff",
+          "error": "#ba1a1a",
+          "on-tertiary-fixed-variant": "#614000",
+          "primary-fixed": "#ffdad3",
+          "on-secondary-fixed-variant": "#3c4b2d",
+          "outline-variant": "#e0bfb9",
+          "surface-container-high": "#f0e7de",
+          "tertiary-container": "#906723",
+          "surface-container": "#f6ece4",
+          "on-primary-fixed": "#3f0400",
+          "on-error": "#ffffff",
+          "on-surface": "#1f1b16",
+          "inverse-surface": "#34302a",
+          "on-secondary-fixed": "#121f06",
+          "inverse-on-surface": "#f9efe6",
+          "primary-fixed-dim": "#ffb4a5",
+          "on-error-container": "#93000a",
+          "tertiary-fixed": "#ffddb1",
+          "on-background": "#1f1b16",
+          "surface-bright": "#fff8f3",
+          "on-secondary-container": "#586847",
+          "outline": "#8c716b",
+          "surface-container-highest": "#eae1d8"
+        },
+        "borderRadius": {
+          "DEFAULT": "0.25rem",
+          "lg": "0.5rem",
+          "xl": "0.75rem",
+          "full": "9999px"
+        },
+        "spacing": {
+          "space-3xl": "4.5rem",
+          "space-2xl": "3rem",
+          "space-xl": "2rem",
+          "space-xs": "0.5rem",
+          "gutter-desktop": "2rem",
+          "space-sm": "0.75rem",
+          "container-max": "75rem",
+          "gutter-mobile": "1rem",
+          "space-xxs": "0.25rem",
+          "space-md": "1rem",
+          "space-lg": "1.5rem"
+        },
+        "fontFamily": {
+          "body-lg": [
+            "Plus Jakarta Sans"
+          ],
+          "body-sm": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-sm": [
+            "Playfair Display"
+          ],
+          "label-md": [
+            "Plus Jakarta Sans"
+          ],
+          "display-lg-mobile": [
+            "Playfair Display"
+          ],
+          "headline-lg-mobile": [
+            "Playfair Display"
+          ],
+          "label-sm": [
+            "Plus Jakarta Sans"
+          ],
+          "headline-lg": [
+            "Playfair Display"
+          ],
+          "title-md": [
+            "Plus Jakarta Sans"
+          ],
+          "body-md": [
+            "Plus Jakarta Sans"
+          ],
+          "price-tag": [
+            "Playfair Display"
+          ],
+          "headline-md": [
+            "Playfair Display"
+          ],
+          "display-lg": [
+            "Playfair Display"
+          ]
+        },
+        "fontSize": {
+          "body-lg": [
+            "1.125rem",
+            {
+              "lineHeight": "1.75rem",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            }
+          ],
+          "body-sm": [
+            "0.875rem",
+            {
+              "lineHeight": "1.375rem",
+              "letterSpacing": "0.01em",
+              "fontWeight": "400"
+            }
+          ],
+          "headline-sm": [
+            "1.25rem",
+            {
+              "lineHeight": "1.75rem",
+              "letterSpacing": "0em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-md": [
+            "0.875rem",
+            {
+              "lineHeight": "1.25rem",
+              "letterSpacing": "0.02em",
+              "fontWeight": "600"
+            }
+          ],
+          "display-lg-mobile": [
+            "2.25rem",
+            {
+              "lineHeight": "2.75rem",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "headline-lg-mobile": [
+            "1.75rem",
+            {
+              "lineHeight": "2.25rem",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "600"
+            }
+          ],
+          "label-sm": [
+            "0.75rem",
+            {
+              "lineHeight": "1rem",
+              "letterSpacing": "0.05em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-lg": [
+            "2.25rem",
+            {
+              "lineHeight": "2.75rem",
+              "letterSpacing": "-0.015em",
+              "fontWeight": "600"
+            }
+          ],
+          "title-md": [
+            "1.125rem",
+            {
+              "lineHeight": "1.625rem",
+              "letterSpacing": "-0.01em",
+              "fontWeight": "700"
+            }
+          ],
+          "body-md": [
+            "1rem",
+            {
+              "lineHeight": "1.5rem",
+              "letterSpacing": "0em",
+              "fontWeight": "400"
+            }
+          ],
+          "price-tag": [
+            "1.25rem",
+            {
+              "lineHeight": "1.5rem",
+              "letterSpacing": "0em",
+              "fontWeight": "700"
+            }
+          ],
+          "headline-md": [
+            "1.5rem",
+            {
+              "lineHeight": "2rem",
+              "letterSpacing": "0em",
+              "fontWeight": "600"
+            }
+          ],
+          "display-lg": [
+            "3.5rem",
+            {
+              "lineHeight": "4rem",
+              "letterSpacing": "-0.02em",
+              "fontWeight": "600"
+            }
+          ]
+        }
+      },
+    },
+  }</script></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/90 backdrop-blur-xl shadow-[0_2px_12px_rgba(31,27,22,0.04)]"><div class="h-20 max-w-[75rem] mx-auto px-gutter-mobile lg:px-gutter-desktop flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-sm"><a class="flex flex-col" href="index.html"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">VADEPA</span><span class="font-label-sm text-label-sm tracking-widest text-primary font-bold uppercase">Cambrils</span></a></div><div class="flex items-center"><button id="menu-toggle-btn" aria-label="Abrir menú de navegación" class="w-12 h-12 rounded-xl bg-surface-container hover:bg-surface-variant text-on-surface flex items-center justify-center transition-colors shadow-sm focus:outline-none cursor-pointer" onclick="document.getElementById('mobile-overlay-menu').classList.remove('hidden');document.body.classList.add('overflow-hidden');requestAnimationFrame(()=>{document.getElementById('menu-panel').classList.remove('translate-x-full');document.getElementById('menu-backdrop').classList.remove('opacity-0');document.getElementById('menu-backdrop').classList.add('opacity-100');});" type="button"><span class="material-symbols-outlined text-[26px]">menu</span></button></div></div><div id="mobile-overlay-menu" class="hidden fixed inset-0 z-50"><div id="menu-backdrop" class="absolute inset-0 bg-on-surface/40 backdrop-blur-sm opacity-0 transition-opacity duration-300 ease-out" onclick="document.getElementById('menu-panel').classList.add('translate-x-full');document.getElementById('menu-backdrop').classList.remove('opacity-100');document.getElementById('menu-backdrop').classList.add('opacity-0');document.body.classList.remove('overflow-hidden');setTimeout(()=>{document.getElementById('mobile-overlay-menu').classList.add('hidden');},300);"></div><div id="menu-panel" class="absolute top-0 right-0 h-full w-[85%] max-w-sm bg-surface/95 backdrop-blur-xl shadow-2xl flex flex-col justify-between p-space-xl translate-x-full transition-transform duration-300 ease-out"><div class="w-full flex items-center justify-between pb-space-lg"><div class="flex items-center gap-space-sm"><img alt="Logo VADEPA Cambrils" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1U3NII-6huLy2N2V4G7pl9M7LeDa_6oseIGrPgAkJet5Jswgr24ZTKK8vtI5QHZItCjeXtJlW1CUOjImpaND_euNnxiafmtOu-jFsPKU_j5bsBfUd5HA0Vl9BiAHcApcbM663fnZXkFaHi-HEpxR8Vr8IznRKcv5TN-GXukpgSM4GCXlVuPuTxfhwM9XT3Z-O6OLpVnKxFQR40zcWgKQoPdlqm0NyfSiDe462kSI493j5Fx4vOzpgDNUqU"><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight leading-none">VADEPA</span><span class="font-label-sm text-label-sm tracking-widest text-primary font-bold uppercase">Trattoria · Cambrils</span></div></div><button id="menu-close-btn" aria-label="Cerrar menú" class="w-12 h-12 rounded-xl bg-surface-container hover:bg-surface-variant text-on-surface flex items-center justify-center transition-colors cursor-pointer" onclick="document.getElementById('menu-panel').classList.add('translate-x-full');document.getElementById('menu-backdrop').classList.remove('opacity-100');document.getElementById('menu-backdrop').classList.add('opacity-0');document.body.classList.remove('overflow-hidden');setTimeout(()=>{document.getElementById('mobile-overlay-menu').classList.add('hidden');},300);" type="button"><span class="material-symbols-outlined text-[26px]">close</span></button></div><div class="w-full flex flex-col items-center justify-center text-center gap-space-lg my-auto"><nav class="flex flex-col gap-space-md w-full"><a href="index.html" class="font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors">Inicio</a><a href="pizzas.html" class="font-headline-md text-headline-md text-primary font-semibold hover:text-primary-container transition-colors">La Carta</a><a href="galeria.html" class="font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors">Galería y Ambiente</a><a href="contacto.html" class="font-headline-md text-headline-md text-on-surface hover:text-primary transition-colors">Contacto y Reservas</a></nav><div class="w-12 h-0.5 bg-outline-variant my-space-xs"></div><div class="flex flex-col items-center gap-space-sm w-full"><a href="contacto.html" class="w-full inline-flex items-center justify-center gap-space-xs px-space-lg py-space-sm rounded-lg bg-primary text-on-primary font-label-md text-label-md hover:bg-primary-container shadow-md transition-colors"><span class="material-symbols-outlined text-[20px]">table_restaurant</span><span class="">Reservar Mesa</span></a><a href="tel:+34977130868" class="inline-flex items-center gap-space-xxs text-on-surface-variant hover:text-primary transition-colors font-label-md text-label-md"><span class="material-symbols-outlined text-[20px] text-primary">call</span><span class="">+34 977 13 08 68</span></a></div></div><div class="text-center pb-space-sm text-outline font-body-sm text-body-sm">Carrer de Frederic Mompou, 7 · Cambrils</div></div></div></header><main class="w-full pt-20 bg-surface"><div class="flex flex-col w-full">
+<!-- Top Category Navigation Ribbon (Sticky below App Shell header) -->
+<section class="sticky top-20 z-40 w-full bg-surface/95 backdrop-blur-md shadow-sm">
+<div class="max-w-[75rem] mx-auto px-gutter-mobile lg:px-gutter-desktop py-space-sm flex items-center justify-between gap-space-md overflow-x-auto no-scrollbar">
+<div class="flex items-center gap-space-xs shrink-0">
+<span class="font-label-sm text-label-sm text-outline uppercase tracking-wider hidden sm:inline">Carta:</span>
+<a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant hover:bg-surface-container transition-colors font-label-md text-label-md" href="pizzas.html">Pizzas</a>
+<a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant hover:bg-surface-container transition-colors font-label-md text-label-md" href="pastas.html">Pastas</a>
+<a class="px-space-sm py-space-xxs rounded-full text-on-surface-variant hover:bg-surface-container transition-colors font-label-md text-label-md" href="ensaladas.html">Ensaladas y Carnes</a>
+<a class="px-space-sm py-space-xxs rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm" href="postres.html">Postres &amp; Vinos</a>
+</div>
+<div class="hidden md:flex items-center gap-space-xs shrink-0 text-secondary">
+<span class="material-symbols-outlined text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Km 0 · Camp de Tarragona</span>
+</div>
+</div>
+</section>
+
+<!-- Subtle ambient decorative glow -->
+<div class="relative w-full overflow-hidden">
+<div class="absolute -top-24 left-1/2 -translate-x-1/2 w-[42rem] h-[22rem] bg-gradient-to-b from-primary-container/10 via-tertiary-fixed/15 to-transparent rounded-full blur-3xl pointer-events-none"></div>
+<!-- Editorial Intro & Section Header -->
+<section class="relative max-w-[75rem] mx-auto px-gutter-mobile lg:px-gutter-desktop pt-space-xl lg:pt-space-2xl pb-space-lg">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-space-lg">
+<div class="max-w-2xl">
+<div class="inline-flex items-center gap-space-xs px-space-sm py-space-xxs rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm tracking-widest uppercase mb-space-xs shadow-sm">
+<span class="material-symbols-outlined text-[15px]" style="font-variation-settings: &quot;FILL&quot; 1;">local_cafe</span>
+            Dolci Artigianali &amp; Bevande
+          </div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface tracking-tight">
+            El Dulce Epílogo y la Sobremesa
+          </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-space-xs leading-relaxed">
+            Nuestros postres elaborados diariamente en obrador propio, acompañados del auténtico café espresso italiano, cervezas bien frías y los vinos de nuestra bodega seleccionada entre Italia y la Costa Daurada.
+          </p>
+</div>
+<!-- Quick Course Filter Bar -->
+<div class="flex items-center gap-space-xs bg-surface-container-low p-space-xxs rounded-xl shadow-sm self-start md:self-auto">
+<button class="px-space-md py-space-xs rounded-lg font-label-md text-label-md bg-primary-container text-on-primary shadow-sm transition-all flex items-center gap-space-xxs" id="tab-btn-desserts" onclick="filterMenu('all')" type="button">
+<span class="material-symbols-outlined text-[18px]">cake</span>
+<span class="">Todo el Dulce</span>
+</button>
+<button class="px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all flex items-center gap-space-xxs" id="tab-btn-drinks" onclick="filterMenu('drinks')" type="button">
+<span class="material-symbols-outlined text-[18px]">wine_bar</span>
+<span class="">Bebidas y Vinos</span>
+</button>
+</div>
+</div>
+<!-- Feature Highlight Banner (Editorial Vignette) -->
+<div class="mt-space-xl grid grid-cols-1 lg:grid-cols-12 gap-space-md items-stretch">
+<div class="lg:col-span-8 relative rounded-2xl overflow-hidden shadow-md min-h-[19rem] flex flex-col justify-end p-space-lg lg:p-space-xl text-on-primary">
+<div class="absolute inset-0 bg-cover bg-center" data-alt="Close up artisanal Italian tiramisu with dusted cocoa powder, mascarpone cream texture, placed on a rustic earthenware ceramic plate with an antique brass dessert spoon beside an espresso cup in a sunlit coastal trattoria dining room. Warm terracotta and soft cream tones." style="background-image: url(&quot;https://lh3.googleusercontent.com/aida-public/AB6AXuDNaD4At8aeF0s0fnOiCDqDVaCCUujDDhHM6Q3b_ZcUVReSk0HDSCeKgkPf6cTOaSvWvJ_DBYmWuW46frXk4csZ96b2ZkrVi57MFpwevotClfgLRvT-e0SlTR1xE8LE1U_OGLXwOszoHiWODxNJx7hR1kVOIOHKWPemrFgMBZYieqwoME1APjrzpjEgtTH-pqQAndxbustkj57vfMzeofMvPfT3v1Su_sEJsAkOveEGXDidtsZWlytX&quot;);"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-inverse-surface via-inverse-surface/60 to-transparent"></div>
+<div class="relative z-10 max-w-xl">
+<div class="flex items-center gap-space-xs text-tertiary-fixed font-label-sm text-label-sm uppercase tracking-wider mb-space-xxs">
+<span class="material-symbols-outlined text-[16px]">award_star</span>
+              Especialidad Emblemática
+            </div>
+<h2 class="font-headline-md text-headline-md font-bold leading-snug">
+              Tiramisú Veneziano al Café Espresso
+            </h2>
+<p class="font-body-sm text-body-sm text-surface-container-high mt-space-xxs leading-relaxed">
+              Bizcochos Savoiardi empapados al momento en espresso de tueste natural italiano con crema aterciopelada de auténtico queso Mascarpone y cacao puro en polvo de cultivo sostenible.
+            </p>
+<div class="flex items-center gap-space-md mt-space-sm">
+<span class="font-price-tag text-price-tag text-tertiary-fixed font-bold">7,50 €</span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container-lowest/20 backdrop-blur-md text-on-primary font-label-sm text-label-sm">
+                Receta de la Nonna
+              </span>
+</div>
+</div>
+</div>
+<!-- Secondary Banner: The Italian Espresso Ritual -->
+<div class="lg:col-span-4 rounded-2xl bg-surface-container-low p-space-lg flex flex-col justify-between shadow-sm relative overflow-hidden">
+<div class="flex items-start justify-between gap-space-xs">
+<div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Ritual Italiano</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-space-xxs">La Sobremesa en Cambrils</h3>
+</div>
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed">
+<span class="material-symbols-outlined text-[20px]">coffee</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant my-space-md leading-relaxed">
+            En VADEPA el café no es un final apresurado, sino el comienzo de una conversación distendida en nuestra calle peatonal. Extracción lenta, crema densa color avellana y el ritmo pausado del mar.
+          </p>
+<div class="space-y-space-xs bg-surface-container rounded-xl p-space-sm">
+<div class="flex justify-between items-center text-on-surface">
+<span class="font-label-md text-label-md flex items-center gap-space-xxs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+                Espresso 100% Arábica
+              </span>
+<span class="font-price-tag text-label-md font-bold text-primary">1,60 €</span>
+</div>
+<div class="flex justify-between items-center text-on-surface">
+<span class="font-label-md text-label-md flex items-center gap-space-xxs">
+<span class="material-symbols-outlined text-[16px] text-tertiary">check_circle</span>
+                Caffè Corretto con Grappa
+              </span>
+<span class="font-price-tag text-label-md font-bold text-primary">2,90 €</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 1: POSTRES ARTESANALES -->
+<section class="max-w-[75rem] mx-auto px-gutter-mobile lg:px-gutter-desktop py-space-xl" id="postres-section">
+<div class="flex flex-col md:flex-row md:items-baseline justify-between gap-space-xs pb-space-md mb-space-lg">
+<div>
+<div class="flex items-center gap-space-xs text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+<span class="material-symbols-outlined text-[16px]">bakery_dining</span>
+            Obrador Propio
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">1. Postres Artesanales</h2>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Elaborados cada mañana por nuestros reposteros. Pregunta por las opciones aptas para intolerancias.
+        </p>
+</div>
+<!-- Grid of Desserts -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-space-md">
+<!-- Item 1: Teja de Huesca -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Teja de Huesca
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">6,90 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Fina y crujiente galleta tradicional curvada, elaborada con almendras seleccionadas tostadas al punto y aroma sutil de mantequilla.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              Crujiente
+            </span>
+</div>
+</article>
+<!-- Item 2: Trufas -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Trufas
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">6,95 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Trufas de chocolate negro puro artesanas, ganache sedoso con 70% cacao y rebozado fino en cacao amargo de molienda fina.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              Cacao 70%
+            </span>
+</div>
+</article>
+<!-- Item 3: Lionesas -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Lionesas
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">6,95 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Bocados de masa choux ligera y crujiente, rellenas de nata montada fresca del día con baño fundente de chocolate negro tibio.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              Nata Fresca
+            </span>
+</div>
+</article>
+<!-- Item 4: Tarta de queso con frambuesa -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Tarta de queso con frambuesa
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Cremosa al horno con coulis artesano de frambuesas silvestres, centro fluido y fondo crujiente de galleta dorada.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+              Favorito
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+</div>
+</article>
+<!-- Item 5: Lingote de torrija -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Lingote de torrija con yema caramelizada
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Pan brioche artesano empapado en leche infusionada con canela y cítricos mediterráneos, coronado con fina costra crujiente de yema tostada al momento.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+              Especialidad
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+</div>
+</article>
+<!-- Item 6: Tarta Carrot Cake -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Tarta carrot cake
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Esponjoso bizcocho especiado con zanahoria rallada fresca, nueces picadas y generosa cobertura de crema de queso aterciopelada.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              Especiado
+            </span>
+</div>
+</article>
+<!-- Item 7: Cheesecake Tradicional -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Cheesecake
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Elaborada al estilo tradicional neoyorquino, densa, suave y con un delicado toque avainillado sobre lecho de galleta horneada.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              New York Style
+            </span>
+</div>
+</article>
+<!-- Item 8: Cheesecake Lotus -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Cheesecake lotus
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Con base y crema irresistible de auténtica galleta caramelizada Lotus Biscoff, finalizada con crunch de galleta tostada.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">
+              Muy Pedido
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+</div>
+</article>
+<!-- Item 9: Tarta Sacher -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Tarta Sacher
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Bizcocho de chocolate vienés esponjoso intercalado con mermelada artesanal de albaricoque y glaseado brillante de chocolate negro.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              Clásico Europeo
+            </span>
+</div>
+</article>
+<!-- Item 10: Tiramisú -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Tiramisú
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              El clásico veneciano con mascarpone fresco, savoiardi bañados en café espresso de tueste natural y cacao holandés en polvo.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold">
+              Insignia Trattoria
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+</div>
+</article>
+<!-- Item 11: Coulant de chocolate -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Coulant de chocolate
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Horneado al momento con corazón fundente de puro cacao caliente servido junto a helado artesanal de vainilla Bourbon.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Casero
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              Servido Caliente
+            </span>
+</div>
+</article>
+<!-- Item 12: Gofre -->
+<article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all">
+<div>
+<div class="flex items-start justify-between gap-space-xs mb-space-xxs">
+<h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">
+                Gofre
+              </h3>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Masa belga recién hecha con perlas de azúcar crujiente y toppings artesanales a elegir: chocolate tibio, nata montada o dulce de leche.
+            </p>
+</div>
+<div class="flex items-center gap-space-xs mt-space-sm pt-space-xs">
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+              Al Momento
+            </span>
+<span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">
+              Toppings Libres
+            </span>
+</div>
+</article>
+<!-- Item 13: Crepe -->
+<div class="col-span-1 md:col-span-2 lg:col-span-3 flex flex-col md:flex-row justify-center items-stretch gap-space-md"><article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all w-full lg:max-w-[calc(33.333%-0.67rem)]"><div><div class="flex items-start justify-between gap-space-xs mb-space-xxs"><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Crepe</h3><span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Fina crepe casera doblada a fuego lento en mantequilla dorada, rellena a tu gusto con abundante chocolate fundido o dulce de leche cremoso.</p></div><div class="flex items-center gap-space-xs mt-space-sm pt-space-xs"><span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Casero</span><span class="px-space-xs py-0.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm">A la Plancha</span></div></article><article class="group bg-surface-container-lowest rounded-2xl p-space-md flex flex-col justify-between shadow-sm hover:shadow-md transition-all w-full lg:max-w-[calc(33.333%-0.67rem)]"><div><div class="flex items-start justify-between gap-space-xs mb-space-xxs"><h3 class="font-headline-sm text-headline-sm text-on-surface group-hover:text-primary transition-colors">Pastel ruso</h3><span class="font-price-tag text-price-tag text-primary font-bold shrink-0">7,50 €</span></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">Especialidad dulce tradicional con finas capas de merengue de almendra y delicada crema emulsionada de praliné de avellana tostada.</p></div><div class="flex items-center gap-space-xs mt-space-sm pt-space-xs"><span class="px-space-xs py-0.5 rounded-full bg-tertiary-fixed text-on-tertiary-fixed font-label-sm text-label-sm">Joyel Tradicional</span><span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">Casero</span></div></article></div>
+<!-- Item 14: Pastel Ruso -->
+
+<!-- Obrador Promo Callout Card (Bento element filling the 15th slot) -->
+
+</div>
+</section>
+<!-- SECTION 2: BEBIDAS Y BODEGA -->
+<section class="max-w-[75rem] mx-auto px-gutter-mobile lg:px-gutter-desktop py-space-xl" id="bebidas-section">
+<div class="flex flex-col md:flex-row md:items-baseline justify-between gap-space-xs pb-space-md mb-space-lg">
+<div>
+<div class="flex items-center gap-space-xs text-secondary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+<span class="material-symbols-outlined text-[16px]">local_bar</span>
+            Cantina &amp; Cantinieri
+          </div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">2. Bebidas y Bodega</h2>
+</div>
+
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-space-lg">
+<!-- Left: Refrescos & Cervezas (7 cols) -->
+<div class="lg:col-span-7 flex flex-col gap-space-md">
+<!-- Refrescos Card -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md lg:p-space-lg shadow-sm">
+<div class="flex items-center justify-between gap-space-xs pb-space-sm mb-space-sm bg-surface-container-low -mx-space-md -mt-space-md px-space-md py-space-sm rounded-t-2xl">
+<div class="flex items-center gap-space-xs">
+<span class="material-symbols-outlined text-[20px] text-primary">liquor</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Refrescos 330ml</h3>
+</div>
+<span class="font-price-tag text-price-tag text-primary font-bold">2,75 €</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mb-space-sm">
+              Servidos bien fríos con hielo picado, rodaja de limón o naranja fresca:
+            </p>
+<div class="grid grid-cols-2 sm:grid-cols-3 gap-space-xs font-body-sm text-body-sm">
+<div class="flex items-center gap-space-xxs p-space-xs rounded-lg bg-surface-container">
+<span class="w-2 h-2 rounded-full bg-primary shrink-0"></span>
+<span class="font-medium text-on-surface">Coca-Cola</span>
+</div>
+<div class="flex items-center gap-space-xxs p-space-xs rounded-lg bg-surface-container">
+<span class="w-2 h-2 rounded-full bg-on-surface-variant shrink-0"></span>
+<span class="font-medium text-on-surface">Coca-Cola Zero</span>
+</div>
+<div class="flex items-center gap-space-xxs p-space-xs rounded-lg bg-surface-container">
+<span class="w-2 h-2 rounded-full bg-tertiary-container shrink-0"></span>
+<span class="font-medium text-on-surface">Fanta Naranja</span>
+</div>
+<div class="flex items-center gap-space-xxs p-space-xs rounded-lg bg-surface-container">
+<span class="w-2 h-2 rounded-full bg-secondary shrink-0"></span>
+<span class="font-medium text-on-surface">Fanta Limón</span>
+</div>
+<div class="flex items-center gap-space-xxs p-space-xs rounded-lg bg-surface-container">
+<span class="w-2 h-2 rounded-full bg-secondary-fixed shrink-0"></span>
+<span class="font-medium text-on-surface">Sprite</span>
+</div>
+<div class="flex items-center gap-space-xxs p-space-xs rounded-lg bg-surface-container">
+<span class="w-2 h-2 rounded-full bg-tertiary shrink-0"></span>
+<span class="font-medium text-on-surface">Aquarius Limón / Naranja</span>
+</div>
+</div>
+</div>
+<!-- Cervezas Card -->
+<div class="bg-surface-container-lowest rounded-2xl p-space-md lg:p-space-lg shadow-sm">
+<div class="flex items-center gap-space-xs pb-space-sm mb-space-sm bg-surface-container-low -mx-space-md -mt-space-md px-space-md py-space-sm rounded-t-2xl">
+<span class="material-symbols-outlined text-[20px] text-secondary">sports_bar</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Cervezas</h3>
+</div>
+<div class="space-y-space-sm">
+<div class="flex items-center justify-between p-space-xs rounded-xl hover:bg-surface-container-low transition-colors">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Cerveza San Miguel</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Formato lata, rubia clásica mediterránea bien fría</p>
+</div>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0 pl-space-xs">2,50 €</span>
+</div>
+<div class="flex items-center justify-between p-space-xs rounded-xl hover:bg-surface-container-low transition-colors">
+<div>
+<h4 class="font-title-md text-title-md text-on-surface">Corona 330ml</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Botellín servido con gajo de lima fresca</p>
+</div>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0 pl-space-xs">3,00 €</span>
+</div>
+<div class="flex items-center justify-between p-space-xs rounded-xl hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center gap-space-xs">
+<h4 class="font-title-md text-title-md text-on-surface">Daura Damm 250ml</h4>
+<span class="px-space-xs py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-label-sm">
+                      Sin Gluten
+                    </span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Cerveza artesana de sabor pleno apta para celíacos</p>
+</div>
+<span class="font-price-tag text-price-tag text-primary font-bold shrink-0 pl-space-xs">3,00 €</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Vinos de la Casa (5 cols) -->
+<div class="lg:col-span-5 bg-surface-container-low rounded-2xl p-space-md lg:p-space-lg shadow-sm flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-space-xs mb-space-xxs text-primary font-label-sm text-label-sm uppercase tracking-wider font-bold">
+<span class="material-symbols-outlined text-[16px]">wine_bar</span>
+              Bodega Hermana
+            </div>
+<h3 class="font-headline-md text-headline-md text-on-surface">
+              Vinos de la Casa
+            </h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xs leading-relaxed">
+              Un diálogo aromático entre las colinas de la Toscana y la Emilia-Romagna con los viñedos centenarios de nuestra tierra catalana.
+            </p>
+<!-- Curated Wine Tags / Tasting Notes -->
+<div class="mt-space-md space-y-space-sm">
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-bold">Italia</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Chianti Classico</h4>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px]">check</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xxs">
+                  Tinto toscano con carácter, notas de cereza madura y tanino sedoso. Perfecto para acompañar la sobremesa.
+                </p>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-bold">Italia</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">Lambrusco di Modena</h4>
+</div>
+<span class="material-symbols-outlined text-primary text-[20px]">check</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xxs">
+                  Espumoso tinto de aguja natural, afrutado, refrescante y goloso. Armonía clásica con pizzas y postres.
+                </p>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">Tarragona</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">D.O. Montsant</h4>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xxs">
+                  Garnachas y cariñenas con profundidad mineral y aromas a sotobosque mediterráneo.
+                </p>
+</div>
+<div class="bg-surface-container-lowest p-space-sm rounded-xl shadow-sm">
+<div class="flex items-start justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-wider font-bold">Tarragona</span>
+<h4 class="font-headline-sm text-headline-sm text-on-surface">D.O. Terra Alta</h4>
+</div>
+<span class="material-symbols-outlined text-secondary text-[20px]">check</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-space-xxs">
+                  Garnacha blanca fresca, untuosa y luminosa, con el carácter del sol de nuestras comarcas vecinas.
+                </p>
+</div>
+</div>
+</div>
+<div class="mt-space-md p-space-sm bg-surface-container rounded-xl flex items-center justify-between text-on-surface-variant">
+<span class="font-body-sm text-body-sm">¿Deseas botella o copa de la casa?</span>
+<span class="font-label-md text-label-md text-primary font-bold">Consultar al camarero</span>
+</div>
+</div>
+</div>
+</section>
+<!-- SOBREMESA TRANQUILA EXPERIENCE SECTION -->
+
+</div>
+</div>
+<script>
+  function filterMenu(category) {
+    const postres = document.getElementById('postres-section');
+    const bebidas = document.getElementById('bebidas-section');
+    const btnDesserts = document.getElementById('tab-btn-desserts');
+    const btnDrinks = document.getElementById('tab-btn-drinks');
+
+    if (category === 'drinks') {
+      postres.classList.add('hidden');
+      bebidas.classList.remove('hidden');
+      
+      btnDrinks.className = "px-space-md py-space-xs rounded-lg font-label-md text-label-md bg-primary-container text-on-primary shadow-sm transition-all flex items-center gap-space-xxs";
+      btnDesserts.className = "px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all flex items-center gap-space-xxs";
+      
+      bebidas.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    } else {
+      postres.classList.remove('hidden');
+      bebidas.classList.remove('hidden');
+      
+      btnDesserts.className = "px-space-md py-space-xs rounded-lg font-label-md text-label-md bg-primary-container text-on-primary shadow-sm transition-all flex items-center gap-space-xxs";
+      btnDrinks.className = "px-space-md py-space-xs rounded-lg font-label-md text-label-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all flex items-center gap-space-xxs";
+      
+      postres.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  }
+</script></main><footer class="w-full bg-surface-container-low text-on-surface-variant"><div class="bg-surface-container"></div></footer>
+
+
+
+</body></html>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 80" width="320" height="80" fill="none">
+  <rect width="320" height="80" rx="12" fill="transparent"/>
+  <path d="M42 22 C42 16 48 12 54 12 C60 12 66 16 66 22 C66 32 42 44 42 54 L66 54" stroke="#C1442D" stroke-width="0" fill="none"/>
+  <!-- Emblema rama de olivo / pizza / trigo estilizado -->
+  <g transform="translate(16, 16)">
+    <circle cx="24" cy="24" r="22" fill="#F7F1E8" stroke="#C1442D" stroke-width="2.5"/>
+    <path d="M24 10 C20 18 16 26 24 38 C32 26 28 18 24 10 Z" fill="#C1442D" opacity="0.9"/>
+    <path d="M14 26 C19 24 24 24 29 28" stroke="#5B6B4A" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="17" cy="21" r="2.5" fill="#5B6B4A"/>
+    <circle cx="31" cy="22" r="2.5" fill="#5B6B4A"/>
+    <circle cx="24" cy="18" r="1.5" fill="#FFFDF9"/>
+  </g>
+  <!-- Texto VADEPA -->
+  <text x="76" y="42" font-family="'Playfair Display', serif" font-size="30" font-weight="800" letter-spacing="3.5" fill="#1F1B16">VADEPA</text>
+  <text x="78" y="58" font-family="'Plus Jakarta Sans', sans-serif" font-size="10.5" font-weight="600" letter-spacing="2.5" fill="#5B6B4A">TRATTORIA · CAMBRILS</text>
+  <line x1="245" y1="36" x2="300" y2="36" stroke="#C1442D" stroke-width="1.5" stroke-dasharray="2 2" opacity="0.6"/>
+  <circle cx="305" cy="36" r="3" fill="#C1442D"/>
+</svg>
