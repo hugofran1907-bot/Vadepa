@@ -18,11 +18,12 @@ Web lista para GitHub + Vercel. Plantilla original de Stitch **intacta** (diseñ
 - Menú hamburguesa: en el ZIP solo `index.html` tenía el menú móvil funcionando; el resto tenían el botón pero sin overlay. Se añadió el mismo menú a las 7 páginas.
 - El menú se despliega como panel lateral de **derecha a izquierda**, con fondo oscurecido detrás. Se cierra con la X, tocando fuera, o al elegir una página.
 - Todos los enlaces del menú apuntan a la página real (antes eran `href="#"`), y desde cualquier página se llega a cualquier otra.
-- Las pestañas de categorías en la parte de arriba de la Carta (Pizzas / Pastas / Ensaladas y Carnes / Postres y Bebidas) están en las 4 páginas y navegan entre ellas — en este ZIP `pastas.html`, `ensaladas.html` y `postres.html` no la traían, se añadió con el mismo estilo que ya usaba `pizzas.html`.
+- Las pestañas propias de `pizzas.html` y la barra "Cartas gastronómicas" de `postres.html` (ya incluidas en tu plantilla) quedaron conectadas a las páginas reales. No se añadió ninguna barra extra en `pastas.html`/`ensaladas.html` — se respetó tal cual venía tu plantilla, sin agregar nada de más.
 - "Llamar" en contacto abre el marcador de teléfono (`tel:+34977130868`).
 - "Cómo Llegar" y "Abrir Mapa" llevan a Google Maps con la dirección real.
 - La insignia de valoración (5.0 ★★★★★) en Contacto enlaza a la búsqueda de VADEPA en Google, en pestaña nueva.
 - Enlaces de Instagram conectados a `@vadepacambrils` (dato que ya venía en el propio contenido de la web).
+- Se respetó el cambio que hiciste tú en `pizzas.html`: los botones "+" junto a cada pizza ya no están.
 - Los botones "Pedir en Glovo" se dejaron tal cual (sin enlace) porque no había una URL real de Glovo en el material — dime el enlace si lo tienes y lo conecto.
 - Se añadió `<title>` a cada página (no venía en el export de Stitch).
 
